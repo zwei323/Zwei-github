@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portofolio Zwei Maun Ramadhan, siswa RPL dan web developer pemula.">
+  <title>Zwei Maun Ramadhan | Portofolio</title>
+  <link rel="stylesheet" href="./style.css">
+  <link rel="preconnect" href="https://cdnjs.cloudflare.com">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+<body>
+  <header class="header">
+    <nav class="navbar container" aria-label="Navigasi utama">
+      <a class="brand" href="#beranda"><span class="brand-icon">&lt;/&gt;</span> Zwei Maun</a>
+      <button class="menu-toggle" id="menuToggle" aria-label="Buka menu" aria-expanded="false"><i class="fa-solid fa-bars"></i></button>
+      <ul class="nav-links" id="navLinks">
+        <li><a class="nav-link active" href="#beranda">Beranda</a></li>
+        <li><a class="nav-link" href="#tentang">Tentang</a></li>
+        <li><a class="nav-link" href="#keahlian">Keahlian</a></li>
+        <li><a class="nav-link" href="#proyek">Proyek</a></li>
+        <li><a class="nav-link" href="#kontak">Kontak</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="beranda">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow">Halo, Saya</p>
+          <h1>Zwei Maun <span>Ramadhan</span></h1>
+          <h2>Web Developer &amp; Pelajar RPL</h2>
+          <p class="hero-description">Saya adalah siswa SMK PGRI 2 Ponorogo jurusan Rekayasa Perangkat Lunak (RPL). Saya suka belajar hal baru, terutama dalam dunia pemrograman dan pengembangan web.</p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#proyek"><i class="fa-solid fa-rocket"></i> Lihat Proyek</a>
+            <a class="button button-outline" href="#kontak"><i class="fa-solid fa-envelope"></i> Hubungi Saya</a>
+          </div>
+        </div>
+        <div class="hero-art" aria-label="Ilustrasi laptop dengan kode program" role="img">
+          <div class="art-orbit"></div>
+          <div class="code-window">
+            <div class="window-dots"><span></span><span></span><span></span></div>
+            <div class="code-symbol">&lt;/&gt;</div>
+            <div class="code-lines"><i></i><i></i><i></i></div>
+          </div>
+          <div class="laptop-base"></div>
+          <span class="float-dot dot-one"></span><span class="float-dot dot-two"></span><span class="float-dot dot-three"></span>
+        </div>
+      </div>
+    </section>
+
+    <section class="about section" id="tentang">
+      <div class="container about-grid">
+        <div class="avatar" aria-hidden="true"><i class="fa-solid fa-user-astronaut"></i></div>
+        <div class="about-copy">
+          <h2>Tentang Saya</h2>
+          <p>Saya adalah siswa kelas XII RPL 2 di SMK PGRI 2 Ponorogo. Saya memiliki ketertarikan di bidang pengembangan web, desain UI/UX, dan teknologi informasi. Saya terus berusaha meningkatkan kemampuan agar bisa menjadi web developer yang profesional di masa depan.</p>
+        </div>
+        <div class="student-info">
+          <div class="info-item"><span class="info-icon"><i class="fa-solid fa-graduation-cap"></i></span><div><strong>Sekolah</strong><p>SMK PGRI 2 Ponorogo</p></div></div>
+          <div class="info-item"><span class="info-icon"><i class="fa-solid fa-calendar-days"></i></span><div><strong>Kelas</strong><p>XII RPL 2</p></div></div>
+          <div class="info-item"><span class="info-icon"><i class="fa-solid fa-location-dot"></i></span><div><strong>Jurusan</strong><p>Rekayasa Perangkat Lunak (RPL)</p></div></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="skills section" id="keahlian">
+      <div class="container">
+        <div class="section-heading"><h2>Keahlian</h2><p>Teknologi yang sedang saya pelajari</p></div>
+        <div class="skills-grid">
+          <div class="skill-card"><span class="skill-logo html"><i class="fa-brands fa-html5"></i></span><strong>HTML</strong></div>
+          <div class="skill-card"><span class="skill-logo css"><i class="fa-brands fa-css3-alt"></i></span><strong>CSS</strong></div>
+          <div class="skill-card"><span class="skill-logo js">JS</span><strong>JavaScript</strong></div>
+          <div class="skill-card"><span class="skill-logo github"><i class="fa-brands fa-github"></i></span><strong>GitHub</strong></div>
+          <div class="skill-card"><span class="skill-logo laravel"><i class="fa-brands fa-laravel"></i></span><strong>Laravel</strong></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="projects section" id="proyek">
+      <div class="container">
+        <div class="section-heading section-heading-left"><h2>Proyek Terbaru</h2><p>Beberapa contoh proyek yang saya kerjakan</p></div>
+        <div class="project-grid">
+          <article class="project-card">
+            <div class="project-icon"><i class="fa-solid fa-globe"></i></div>
+            <div class="project-copy"><h3>Website Portofolio</h3><p>Website pribadi untuk memperkenalkan profil, keahlian, dan hasil belajar saya.</p><span class="project-tag">HTML · CSS · JavaScript</span></div>
+            <a class="project-arrow" href="#kontak" aria-label="Tanyakan tentang Website Portofolio"><i class="fa-solid fa-arrow-right"></i></a>
+          </article>
+          <article class="project-card">
+            <div class="project-icon"><i class="fa-solid fa-code"></i></div>
+            <div class="project-copy"><h3>Website Sekolah</h3><p>Contoh website informasi sekolah dengan tampilan sederhana dan responsif.</p><span class="project-tag">Web Design</span></div>
+            <a class="project-arrow" href="#kontak" aria-label="Tanyakan tentang Website Sekolah"><i class="fa-solid fa-arrow-right"></i></a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact section" id="kontak">
+      <div class="container contact-inner">
+        <div><p class="eyebrow">Ada ide menarik?</p><h2>Mari terhubung!</h2><p>Saya terbuka untuk belajar, berbagi ide, dan mengerjakan proyek web sederhana.</p></div>
+        <a class="button button-primary" href="mailto:emailkamu@example.com"><i class="fa-solid fa-paper-plane"></i> Kirim Email</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <h2>Hubungi Saya</h2>
+      <div class="social-links">
+        <a href="https://github.com/" target="_blank" rel="noopener noreferrer" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+        <a href="https://instagram.com/" target="_blank" rel="noopener noreferrer" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+        <a href="mailto:emailkamu@example.com" aria-label="Email"><i class="fa-solid fa-envelope"></i></a>
+      </div>
+      <p>© <span id="year"></span> Zwei Maun Ramadhan. Dibuat dengan HTML, CSS, dan JavaScript.</p>
+    </div>
+  </footer>
+  <button id="backToTop" class="back-to-top" aria-label="Kembali ke atas"><i class="fa-solid fa-arrow-up"></i></button>
+  <script src="./script.js"></script>
+</body>
+</html>
